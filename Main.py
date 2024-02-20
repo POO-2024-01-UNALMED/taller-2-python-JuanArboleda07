@@ -12,7 +12,7 @@ class Asiento:
         
         def CantidadAsientos (self, numeroasiento):
             return numeroasiento
-            
+        
 class Motor:
     def __init__(self, numeroCilindros, tipo, registro):
         self.numeroCilindros = numeroCilindros
@@ -44,4 +44,3 @@ class Auto:
         self.cantidadCreados =numero
 
     def verificarintegridad(self, integridad):
-        if self.registro == Motor(registro=)
